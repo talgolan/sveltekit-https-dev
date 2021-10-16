@@ -18,6 +18,3 @@ echo ">>>>> and will be saved to the root of this svelte kit installation"
 echo
 echo "Initiating: npm run dev (see package.json for details)."
 npm run dev
-echo
-echo "Opening the default browser to https://localhost:8080"
-open "https://localhost:8080"
