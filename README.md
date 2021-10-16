@@ -47,7 +47,12 @@ This respository is designed to demonstrate the following:
 3. npm run dev
 4. Open browser @ https://localhost:8080
 
-## Second observation:
+## Third observation:
 
 - Notice "SvelteKit v1.0.0-next.168"
 - When the browser opens (Chrome/Firefox/Safari) the security warning is gone.
+
+## Final observation:
+
+- SvelteKit v1.0.0-next.168 works for HTTPS development
+- SvelteKit v1.0.0-next.184 (versions > v1.0.0-next.168) are not properly passing key/cert information.
