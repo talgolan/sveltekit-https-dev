@@ -6,7 +6,7 @@
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
     "install_mkcert": "sh install_mkcert.sh",
-    "switch": "ln -sf package_1.0.0-next.184.json package.json"
+    "switch": "ln -sf package_1.0.0-next.184.json package.json; npm install"
   },
   "devDependencies": {
     "@sveltejs/kit": "1.0.0-next.168",
