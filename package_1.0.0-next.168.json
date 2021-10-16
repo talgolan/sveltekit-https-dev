@@ -1,0 +1,16 @@
+{
+  "name": "sveltekit-https-dev",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev --https --port 8080",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "install_mkcert": "sh install_mkcert.sh",
+    "switch": "ln -sf package_1.0.0-next.184.json package.json"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "1.0.0-next.168",
+    "svelte": "^3.43.2"
+  },
+  "type": "module"
+}

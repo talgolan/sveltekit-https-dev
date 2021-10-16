@@ -30,6 +30,6 @@
 <style>
   body {
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 12px;
   }
 </style>
