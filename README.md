@@ -1,38 +1,29 @@
-# create-svelte
+# SvelteKit HTTPS Example:
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This respository is designed to demonstrate the following:
 
-## Creating a project
+[ Via @sveltejs/kit: 1.0.0-next.168 ]
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Simplest possible configuration to allow for HTTPS development @ https://localhost:8080
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+[ Via @sveltejs/kit: 1.0.0-next.184 (any version > 168) ]
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+- BROKEN for HTTPS development @ https://localhost:8080
 
-> Note: the `@next` is temporary
+## Assumption:
 
-## Developing
+- Mac OS
+- brew (https://brew.sh/) installed
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Instructions (part 1):
 
-```bash
-npm run dev
+1. Clone this repository
+2. npm install
+3. npm run install_mkcert
+4. Open browser @ https://localhost:8080
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## First observation:
 
-## Building
+- When the browser opens (Chrome/Firefox/Safari) there will be no security warning.
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+## Instructions (part 2):
