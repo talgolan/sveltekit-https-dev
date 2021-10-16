@@ -16,5 +16,6 @@ echo ">>>>> The key and cert will be named:"
 echo ">>>>> localhost-key.pem & localhost-cert.pem respectively"
 echo ">>>>> and will be saved to the root of this svelte kit installation"
 echo
+mkcert -cert-file ./localhost-cert.pem -key-file ./localhost-key.pem localhost localhost 127.0.0.1
 echo "Initiating: npm run dev (see package.json for details)."
 npm run dev
