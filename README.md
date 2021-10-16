@@ -17,13 +17,23 @@ This respository is designed to demonstrate the following:
 
 ## Instructions (part 1):
 
-1. Clone this repository
-2. npm install
-3. npm run install_mkcert
-4. Open browser @ https://localhost:8080
+1. git clone https://github.com/talgolan/sveltekit-https-dev.git
+2. cd sveltekit-https-dev
+3. npm install
+4. npm run install_mkcert
+5. Open browser @ https://localhost:8080
 
 ## First observation:
 
 - When the browser opens (Chrome/Firefox/Safari) there will be no security warning.
 
 ## Instructions (part 2):
+
+1. ctrl-c
+2. npm run switch
+3. npm run dev
+4. Open browser @ https://localhost:8080
+
+## First observation:
+
+- When the browser opens (Chrome/Firefox/Safari) there will be an obvious security warning.
