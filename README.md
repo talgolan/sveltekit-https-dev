@@ -25,6 +25,7 @@ This respository is designed to demonstrate the following:
 
 ## First observation:
 
+- Notice "SvelteKit v1.0.0-next.168"
 - When the browser opens (Chrome/Firefox/Safari) there will be no security warning.
 
 ## Instructions (part 2):
@@ -34,6 +35,19 @@ This respository is designed to demonstrate the following:
 3. npm run dev
 4. Open browser @ https://localhost:8080
 
-## First observation:
+## Second observation:
 
+- Notice "SvelteKit v1.0.0-next.184"
 - When the browser opens (Chrome/Firefox/Safari) there will be an obvious security warning.
+
+## Instructions (part 3):
+
+1. ctrl-c
+2. npm run switch
+3. npm run dev
+4. Open browser @ https://localhost:8080
+
+## Second observation:
+
+- Notice "SvelteKit v1.0.0-next.168"
+- When the browser opens (Chrome/Firefox/Safari) the security warning is gone.
